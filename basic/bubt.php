@@ -53,7 +53,8 @@ while($j<=10){
 //foreach loop (Array)
 echo "<br>";
 $colors = array("red","green","blue","yellow");
-print_r($colors); //print_r() function is used to print human-readable information about a variable
+print_r($colors); 
+// print_r() function is used to print human-readable information about a variable
 echo "<br>";
 foreach($colors as $value){
     echo $value;
